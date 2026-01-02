@@ -1,1 +1,1 @@
-# reactboard
+# 리엑트 게시판
