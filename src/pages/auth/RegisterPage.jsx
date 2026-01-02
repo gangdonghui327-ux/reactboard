@@ -2,7 +2,7 @@ import { Typography, Container, Paper, Box, Stack, TextField, Button } from '@mu
 import { useMutation } from '@tanstack/react-query'
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router';
-import { register, setAuth } from '../../api/AuthApi';
+import { register, setAuth } from '../../api/authApi';
 // 회원가입
 function RegisterPage() {
     const navigate = useNavigate();

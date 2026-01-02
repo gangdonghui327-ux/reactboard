@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useNavigate } from "react-router";
-import { login, setAuth } from "../../api/AuthApi";
+import { login, setAuth } from "../../api/authApi";
 import { Box, Stack, Typography, Container, Paper, TextField, Button } from "@mui/material";
 
 function LoginPage() {

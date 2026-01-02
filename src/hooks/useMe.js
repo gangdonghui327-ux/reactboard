@@ -1,6 +1,6 @@
 // useMe.js
 import { useQuery } from "@tanstack/react-query";
-import { fetchMe, getToken, ME_QUERY_KEY } from "../api/AuthApi";
+import { fetchMe, getToken, ME_QUERY_KEY } from "../api/authApi";
 
 // 로그인한 사용자 정보를 가져오는 커스텀 훅
 export function useMe() {

@@ -3,7 +3,7 @@ import { Link, Outlet, useNavigate } from 'react-router';
 import { BiBody } from "react-icons/bi";
 import { useQueryClient } from '@tanstack/react-query';
 import { useMe } from '../hooks/useMe';
-import { clearAuth } from '../api/AuthApi';
+import { clearAuth } from '../api/authApi';
 
 function AppLayout() {
     const queryClient = useQueryClient();
